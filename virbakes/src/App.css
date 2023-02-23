@@ -16,8 +16,8 @@
     font-size: 3rem;
   }
   
-  .services {
-    background-image: url('/src/assets/imgs/brownie.jpg');
+  .productos {
+    background-image: url('/src/assets/imgs/backgrounds/pink.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,17 +25,17 @@
     font-size: 100px;
   }
   
-  .products {
-    background-image: url('/src/assets/imgs/brownie.jpg');
+  .custom {
+    background-image: url('/src/assets/imgs/backgrounds/green.png');
     background-position: center;
-    background-size: fill;
+    background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100px;
   }
   
-  .sign-up {
-    background-image: url('/src/assets/imgs/brownie.jpg');
+  .contact {
+    background-image: url('/src/assets/imgs/backgrounds/blue.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
