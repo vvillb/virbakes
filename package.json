@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "devextreme": "22.2.4",
+    "devextreme-react": "22.2.4",
     "formik": "^2.2.9",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
