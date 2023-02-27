@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@headlessui/react": "^1.7.12",
+    "@heroicons/react": "^2.0.16",
     "devextreme": "22.2.4",
     "devextreme-react": "22.2.4",
     "formik": "^2.2.9",
