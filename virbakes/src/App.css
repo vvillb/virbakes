@@ -22,8 +22,16 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    color: #fff;
+    font-size: 80px;
+    align-items: center;
   }
+
+
+
+ 
+
+
   
   .custom {
     background-image: url('/src/assets/imgs/backgrounds/green.png');

@@ -3,7 +3,7 @@ import CardsItem from '../CardsItem'
 import '../Cards.css'
 
 
-function Cardsreuse({data}) {
+function Cardsreuse({data, backgroundColor}) {
     const cardsItems=data.map((item,index)=>(
     <CardsItem
     key={index}
@@ -14,9 +14,8 @@ function Cardsreuse({data}) {
     />
     ));
   return (
-    <div className='cards'>
-      <h1>Te apetece?</h1>
-      <div className='cards__container'>
+    <div className='cards' style={{backgroundColor}}>
+        <div className='cards__container'>
         <div className='cards__wrapper'>
             <ul className='cards__items'>
                 {cardsItems}
