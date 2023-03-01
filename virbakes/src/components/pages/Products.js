@@ -126,7 +126,7 @@ const productos=[
   text:'Vainilla y chocolate y suuuper esponjoso',
 },
 {id:14,
-  label: 'Brookie pies',
+  label: 'Brookie pie',
   path:'#',
   price:'15,50',
   src: brookie ,

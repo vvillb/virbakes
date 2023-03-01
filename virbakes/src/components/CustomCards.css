@@ -1,11 +1,18 @@
+.sobre__foto{
+    align-items: center;
+  text-align: center;
+}
 .cards {
     padding: 4rem;
     background: #fff;
   }
+
+ 
   
   h1 {
     text-align: center;
   }
+
 
   
   .cards__container {
@@ -28,6 +35,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    list-style: none;
   }
   
   .cards__item {
@@ -35,28 +43,29 @@
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
+    
 
   }
-  @media only screen and (max-width: 768px){
+  
+  @media only screen and (max-width: 800px){
     .cards__item{
       flex: 100%;
       margin: 0 0 2rem 0;
+      
     }
+.cards__items li{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    
   }
 
-  @media only screen and (min-width:769px) and (max-width:1024px){
-    .cards__item{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
+
   
 
-  .cards__item{
-    flex: 25%;
-    margin: 0 1rem 2rem 0;
-  }}
-  @media only screen and (min-width: 1025px) {
+   @media only screen and (min-width: 801px) {
     .cards__items {
       display: flex;
       flex-wrap: wrap;
@@ -64,10 +73,12 @@
     }
     
     .cards__item {
-      flex: calc(25% - 1rem);
+      flex: calc(33% - 1rem);
       margin: 0 1rem 2rem 0;
     }
+    
   }
+  
   
   .cards__item__link {
     display: flex;
@@ -142,14 +153,7 @@
     }
   }
   
-  @media only screen and (min-width: 1024px) {
-    .cards__items {
-      display: flex;
-    }
-  }
   
-  @media only screen and (max-width: 1024px) {
-    .cards__item {
-      margin-bottom: 2rem;
-    }
-  }
+  
+  
+ 
