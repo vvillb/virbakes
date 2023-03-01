@@ -1,6 +1,10 @@
 .sobre__foto{
     align-items: center;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  font-size: 120%;
 }
 .cards {
     padding: 4rem;
@@ -12,7 +16,9 @@
   h1 {
     text-align: center;
   }
-
+.cards__item{
+  display: flex;
+}
 
   
   .cards__container {
@@ -65,7 +71,7 @@
 
   
 
-   @media only screen and (min-width: 801px) {
+  @media only screen and (min-width: 801px) {
     .cards__items {
       display: flex;
       flex-wrap: wrap;
@@ -108,13 +114,14 @@
     content: attr(data-category);
     position: absolute;
     bottom: 0;
+    display: flex;
     margin-left: 10px;
     padding: 6px 8px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     color: #fff;
-    background-color: #fa9aef;
+    background-color: #966ba0;
     box-sizing: border-box;
   }
   
@@ -143,7 +150,7 @@
   
   .cards__item__text {
     color: #252e48;
-    font-size: 18px;
+    font-size: 120%;
     line-height: 24px;
   }
   
@@ -155,5 +162,25 @@
   
   
   
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+    .cards__items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+    }
+    .cards__item {
+      flex: calc(33% - 1rem);
+      margin: 0 1rem 2rem 0;
+      flex-direction: column;
+    }
+    
+    
+  }
   
- 

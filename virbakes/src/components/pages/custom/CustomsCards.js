@@ -1,14 +1,15 @@
 import React from 'react'
-import CardsItem from './CardsItem'
+import CardsItem from '../../CardsItem'
 import './CustomCards.css'
-import mix from '../assets/imgs/surtido_brow_alf.jpg'
-import tartaDdl from '../assets/imgs/bizcocho_marm_ddl.jpg'
-import tartaAlfajor from '../assets/imgs/tarta_alfajor.jpg'
+import mix from '../../../assets/imgs/surtido_brow_alf.jpg'
+import tartaDdl from '../../../assets/imgs/bizcocho_marm_ddl.jpg'
+import tartaAlfajor from '../../../assets/imgs/tarta_alfajor.jpg'
 
 function CustomCards() {
     return (
       <div className='cards'>
-        <h1>Personaliza tu pedido</h1>
+        <h1>Pide lo que quieras!</h1>
+
         <div className='card__container'>
           <div className='cards__wrapper'>
               <ul className='cards__items'>
@@ -43,7 +44,7 @@ function CustomCards() {
                   text="Un alfajor hecho tarta...tus sueños hechos realidad 😉"
                   label="Tarta de alfajor"
                   path="#"
-                  title_above="Hasta donde llega tu imaginación?"
+                  title_above="Qué te imaginas?"
                   />
                   </div>
                  

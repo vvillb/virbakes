@@ -1,6 +1,6 @@
 import React from 'react'
-import '../../App.css';
-import CustomCards from '../CustomsCards';
+import '../../../App.css';
+import CustomCards from './CustomsCards';
 //import mix from '../../assets/imgs/surtido_brow_alf.jpg'
 //import tartaDdl from '../../assets/imgs/bizcocho_marm_ddl.jpg'
 //import tartaAlfajor from '../../assets/imgs/tarta_alfajor.jpg'

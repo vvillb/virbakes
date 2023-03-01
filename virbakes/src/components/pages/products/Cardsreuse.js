@@ -1,6 +1,6 @@
 import React from 'react'
-import CardsItem from '../CardsItem'
-import '../Cards.css'
+import CardsItem from './CardsItems'
+import '../../Cards.css'
 
 
 function Cardsreuse({data, backgroundColor}) {
@@ -11,6 +11,7 @@ function Cardsreuse({data, backgroundColor}) {
     text={item.text}
     label={item.label}
     path={item.path}
+    title_above=""
     />
     ));
   return (

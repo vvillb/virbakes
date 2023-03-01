@@ -1,22 +1,22 @@
 import React from 'react';
-import '../../App.css';
-import alfajores from '../../assets/imgs/alfajores.jpg';
-import '../../index.css';
+import '../../../App.css';
+import alfajores from '../../../assets/imgs/alfajores.jpg';
+import '../../../index.css';
 import Cardsreuse from './Cardsreuse';
-import cheesecake from '../../assets/imgs/cheesecake.jpg'
-import granola from '../../assets/imgs/granola.jpg'
-import bizcochoMarmolado from '../../assets/imgs/bizcocho_aurora.jpg'
-import brownie from '../../assets/imgs/brownie.jpg'
-import cinammonRolls from '../../assets/imgs/cinammon_rolls.jpg'
-import carrotCake from '../../assets/imgs/carrot_cake_fit.jpg'
-import cookies from '../../assets/imgs/cookies.jpg'
-import miniBrookies from '../../assets/imgs/mini_brookies.jpg'
-import spongeCake from '../../assets/imgs/sponge_cake.jpg'
-import superCookie from '../../assets/imgs/super_cookie.jpg'
-import bizcochoDatiles from '../../assets/imgs/bizch_nuecesydatiles_fit.jpg'
-import superCookieChoco from '../../assets/imgs/super_cookie_choco.jpg'
-import brookie from '../../assets/imgs/brookie.jpg'
-import bizcochos from '../../assets/imgs/bizcochos.jpg'
+import cheesecake from '../../../assets/imgs/cheesecake.jpg'
+import granola from '../../../assets/imgs/granola.jpg'
+import bizcochoMarmolado from '../../../assets/imgs/bizcocho_aurora.jpg'
+import brownie from '../../../assets/imgs/brownie.jpg'
+import cinammonRolls from '../../../assets/imgs/cinammon_rolls.jpg'
+import carrotCake from '../../../assets/imgs/carrot_cake_fit.jpg'
+import cookies from '../../../assets/imgs/cookies.jpg'
+import miniBrookies from '../../../assets/imgs/mini_brookies.jpg'
+import spongeCake from '../../../assets/imgs/sponge_cake.jpg'
+import superCookie from '../../../assets/imgs/super_cookie.jpg'
+import bizcochoDatiles from '../../../assets/imgs/bizch_nuecesydatiles_fit.jpg'
+import superCookieChoco from '../../../assets/imgs/super_cookie_choco.jpg'
+import brookie from '../../../assets/imgs/brookie.jpg'
+import bizcochos from '../../../assets/imgs/bizcochos.jpg'
 
 
 function Products(){
@@ -62,7 +62,7 @@ const productos=[
   text:'Con toppings brutales',
 },
 {id:6,
-  label: 'Bizcocho de dátiles',
+  label: 'Bizcocho de dátiles  💪fit!',
   path:'#',
   price:'15,50',
   src: bizcochoDatiles,
@@ -70,7 +70,7 @@ const productos=[
   text:'Sponjoso y healthy...increíble',
 },
 {id:7,
-  label: 'Granola',
+  label: 'Granola  💪fit!',
   path:'#',
   price:'15,50',
   src: granola,
@@ -110,7 +110,7 @@ const productos=[
   text:'A que son monísimos?',
 },
 {id:12,
-  label: 'Carrot Cake Fit',
+  label: 'Carrot Cake Fit  💪fit!',
   path:'#',
   price:'15,50',
   src: carrotCake,
@@ -148,7 +148,7 @@ const productos=[
 
 return(
     <div className='productos'>
-      <h1>PRODUCTOS</h1>
+      
       <Cardsreuse data={productos} backgroundColor='#f9f4f4'/>
     </div>
  ) };

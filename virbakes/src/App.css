@@ -17,22 +17,14 @@
     font-size: 3rem;
   }
   
-  .productos {
-    background-image: url('/src/assets/imgs/backgrounds/pink.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 80px;
-    align-items: center;
-  }
-
-
-
- 
-
-
+  .productos h1 {
+    font-size: 52px;
+    background-color: rgb(249, 244, 244);
+    color: #613834;
+    font-style: italic;
+    
   
+  }
   .custom {
     background-image: url('/src/assets/imgs/backgrounds/green.png');
     background-position: center;
