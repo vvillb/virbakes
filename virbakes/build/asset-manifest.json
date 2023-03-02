@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ed89c6ab.css",
+    "main.js": "/static/js/main.1bd53f00.js",
+    "static/media/brownie.jpg": "/static/media/brownie.f112e736548c39ea27da.jpg",
+    "static/media/cheesecake.jpg": "/static/media/cheesecake.ef3398d2683f470297ab.jpg",
+    "static/media/tarta_alfajor.jpg": "/static/media/tarta_alfajor.9efaf9543e86f0884818.jpg",
+    "static/media/bizcocho_aurora.jpg": "/static/media/bizcocho_aurora.64eed157eab20b079d4f.jpg",
+    "static/media/pinkplus.png": "/static/media/pinkplus.e17aeae914b7394c2dfb.png",
+    "static/media/super_cookie_choco.jpg": "/static/media/super_cookie_choco.ba4afc533f039238b6bb.jpg",
+    "static/media/surtido_brow_alf.jpg": "/static/media/surtido_brow_alf.8acb576998bcbf855f0f.jpg",
+    "static/media/super_cookie.jpg": "/static/media/super_cookie.58695816c1ec65c972f2.jpg",
+    "static/media/alfajores2.jpg": "/static/media/alfajores2.f18f9137b2f285ce8c0a.jpg",
+    "static/media/cinammon_rolls.jpg": "/static/media/cinammon_rolls.e7a6d137b87cff56d356.jpg",
+    "static/media/blue.png": "/static/media/blue.69b08bb6f437ff082662.png",
+    "static/media/brookie.jpg": "/static/media/brookie.17a15ed2ece0f8d94ff2.jpg",
+    "static/media/carrot_cake_fit.jpg": "/static/media/carrot_cake_fit.12c88ed8b054a0eb7c71.jpg",
+    "static/media/sponge_cake.jpg": "/static/media/sponge_cake.93ebac52336086e5b79f.jpg",
+    "static/media/cookies.jpg": "/static/media/cookies.10a28c68dea3145b0345.jpg",
+    "static/media/alfajores.jpg": "/static/media/alfajores.6f8c3b7c69ee5f4a3374.jpg",
+    "static/media/granola.jpg": "/static/media/granola.29052ca83244fb1fd23c.jpg",
+    "static/media/bizch_nuecesydatiles_fit.jpg": "/static/media/bizch_nuecesydatiles_fit.e515e9640c85941a3054.jpg",
+    "static/media/bizcocho_marm_ddl.jpg": "/static/media/bizcocho_marm_ddl.db20ee5e43d3aa3d6432.jpg",
+    "static/media/green.png": "/static/media/green.f42cf15ab80a45f2845c.png",
+    "static/media/mini_brookies.jpg": "/static/media/mini_brookies.9573d4a6d2a65c8286a2.jpg",
+    "static/media/bizcochos.jpg": "/static/media/bizcochos.7d07a17987004dc57315.jpg",
+    "index.html": "/index.html",
+    "main.ed89c6ab.css.map": "/static/css/main.ed89c6ab.css.map",
+    "main.1bd53f00.js.map": "/static/js/main.1bd53f00.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed89c6ab.css",
+    "static/js/main.1bd53f00.js"
+  ]
+}
