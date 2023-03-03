@@ -1,5 +1,6 @@
-{ "homepage":"https://vvillb.github.io/virbakes",
+{ 
   "name": "virbakes",
+  "homepage":"https://vvillb.github.io/virbakes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
