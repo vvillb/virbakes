@@ -35,10 +35,121 @@
   }
   
   .contact {
-    background-color: #ffefd0;
+    background-image: url('./assets/imgs/backgrounds/contact.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #de8472;
+    color: #613834;
+    height: 100vh;
     font-size: 40px;
+    align-items: center;
+    padding-top: 100px;
   }
+  .contact a{
+    color:inherit;
+  }
+.contact__container{
+  display: flex;
+  flex:auto;
+  margin-top: 10vh;
+
+}
+.contact__item{
+  display: flex;
+  flex-direction: row;
+    flex: 1 0 auto;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+#talkbubble{
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 508px) {
+  .contact{
+    height: auto;
+  }
+  .contact h1{
+    font-size: 50px;
+    padding: 20%;
+  }
+  #talkbubble{
+    font-size: 35px;
+    border-radius: 77% 23% 83% 17% / 65% 46% 54% 35% ;
+  }
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+  }
+      .contact__item{
+        height: 120%;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+      }}
+
+      .contact a{
+        background: #ffefd0;
+        
+        padding: 30%;
+        
+      }
+      .mail{
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+        box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+        -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+        filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+        transition: all 0.3s ease-out;
+      }
+      .insta{
+        border-radius:73% 27% 36% 64% / 27% 39% 61% 73% ;
+        box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+        -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+        filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+        transition: all 0.3s ease-out;
+      }
+      .was{
+        border-radius: 86% 14% 24% 76% / 65% 39% 61% 35%  ;
+        box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+        -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+        filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+        transition: all 0.3s ease-out;
+      }
+      .was:hover{
+        transition: all 0.3s ease-out;
+        color:#fff;
+        background:#613834;
+        transition: 250ms;
+      }
+      .mail:hover{
+        transition: all 0.3s ease-out;
+        color:#fff;
+        background:#613834;
+        transition: 250ms;
+      }
+      .insta:hover{
+        transition: all 0.3s ease-out;
+        color:#fff;
+        background:#613834;
+        transition: 250ms;
+      }
+
+      .contact__item i{
+        size: 150%;
+      }
+
+      .contact h1{
+        background: #ffefd0;
+        border-radius: 39% 61% 24% 76% / 65% 46% 54% 35%  ;
+        box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+        -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+        filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+      }
+      
+      
+         
+
+      
