@@ -26,7 +26,7 @@
   
   }
   .custom {
-    background-image: url('/src/assets/imgs/backgrounds/green.png');
+    background-color: #ffefd0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,10 +35,10 @@
   }
   
   .contact {
-    background-image: url('/src/assets/imgs/backgrounds/blue.png');
+    background-color: #ffefd0;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    color: #de8472;
+    font-size: 40px;
   }

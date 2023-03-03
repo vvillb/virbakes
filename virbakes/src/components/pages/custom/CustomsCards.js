@@ -1,5 +1,5 @@
 import React from 'react'
-import CardsItem from '../../CardsItem'
+import CardsItemCustom from './CardsItemCustom'
 import './CustomCards.css'
 import mix from '../../../assets/imgs/surtido_brow_alf.jpg'
 import tartaDdl from '../../../assets/imgs/bizcocho_marm_ddl.jpg'
@@ -7,17 +7,17 @@ import tartaAlfajor from '../../../assets/imgs/tarta_alfajor.jpg'
 
 function CustomCards() {
     return (
-      <div className='cards'>
+      <div className='cards_c'>
         <h1>Pide lo que quieras!</h1>
 
-        <div className='card__container'>
-          <div className='cards__wrapper'>
-              <ul className='cards__items'>
+        <div className='card__container_c'>
+          <div className='cards__wrapper_c'>
+              <ul className='cards__items_c'>
                 
                      
-                  <div className='cards__item'>
+                  <div className='cards__item_c'>
                     
-                    <CardsItem
+                    <CardsItemCustom
                     src={mix}
                     text="Ideales para eventos y reuniones"
                     label="Surtido"
@@ -27,8 +27,8 @@ function CustomCards() {
                   </div>
                 
                 
-                  <div className='cards__item'>                 
-                  <CardsItem
+                  <div className='cards__item_c'>                 
+                  <CardsItemCustom
                   src={tartaDdl}
                   text="Mejor algo que luzca así de bonito en la mesa, no?"
                   label="Bizcocho con de dulce de leche"
@@ -38,8 +38,8 @@ function CustomCards() {
                   </div>
                 
                 
-                  <div className='cards__item'>  
-                  <CardsItem
+                  <div className='cards__item_c'>  
+                  <CardsItemCustom
                   src={tartaAlfajor}
                   text="Un alfajor hecho tarta...tus sueños hechos realidad 😉"
                   label="Tarta de alfajor"

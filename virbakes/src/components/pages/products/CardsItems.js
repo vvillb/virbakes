@@ -6,7 +6,7 @@ function CardsItem(props) {
   return (
     <>
       <li className='cards__item'>
-        <h4 className='sobre__foto'>{props.title_above}</h4>
+        
         <Link className='cards__item__link' to={props.path}>
             <figure className='cards__item__pic-wrap' data-category={props.label}>
                 <img src={props.src} alt='product'

@@ -19,7 +19,7 @@ function App() {
   return (
     
     <>
-    <Router>
+    <Router basename="/virbakes">
       <Navbar/>
      
       <Routes>
