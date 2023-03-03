@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/virbakes/static/css/main.9e61100c.css",
-    "main.js": "/virbakes/static/js/main.3f4950cf.js",
+    "main.js": "/virbakes/static/js/main.b576f213.js",
     "static/media/brownie.jpg": "/virbakes/static/media/brownie.f112e736548c39ea27da.jpg",
     "static/media/cheesecake.jpg": "/virbakes/static/media/cheesecake.ef3398d2683f470297ab.jpg",
     "static/media/tarta_alfajor.jpg": "/virbakes/static/media/tarta_alfajor.9efaf9543e86f0884818.jpg",
@@ -24,10 +24,10 @@
     "static/media/bizcochos.jpg": "/virbakes/static/media/bizcochos.7d07a17987004dc57315.jpg",
     "index.html": "/virbakes/index.html",
     "main.9e61100c.css.map": "/virbakes/static/css/main.9e61100c.css.map",
-    "main.3f4950cf.js.map": "/virbakes/static/js/main.3f4950cf.js.map"
+    "main.b576f213.js.map": "/virbakes/static/js/main.b576f213.js.map"
   },
   "entrypoints": [
     "static/css/main.9e61100c.css",
-    "static/js/main.3f4950cf.js"
+    "static/js/main.b576f213.js"
   ]
 }
